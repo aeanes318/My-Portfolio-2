@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Capriola&family=Sofia+Sans+Condensed&display=swap");
+
+body {
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 95px;
+  margin-right: 75px;
+  position: relative;
+  left: 10px;
+  top: -40px;
+  padding-top: 10px;
+  height: 15px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  color: teal;
+  font-size: 30px;
+}
+
+h1 {
+  color: rgb(24, 175, 225);
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-size: 50px;
+}
+
+span {
+  color: rgb(175, 233, 230);
+}
+
+h2 {
+  color: rgb(24, 175, 225);
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-size: 30px;
+}
+
+p {
+  color: rgb(175, 233, 230);
+  font-family: "Sofia Sans Condensed", sans-serif;
+  width: 40%;
+  position: relative;
+  left: 30%;
+  top: 70px;
+}
+
+label {
+  display: block;
+  color: rgb(175, 233, 230);
+  font-family: "Sofia Sans Condensed", sans-serif;
+}
+
+input,
+textarea {
+  border-radius: 5px;
+  border: 1px solid rgb(24, 175, 225);
+}
+
+form {
+  width: fit-content;
+  position: relative;
+  left: 45%;
+}
+
+#container {
+  background-image: linear-gradient(
+    to right,
+    rgb(24, 175, 225),
+    rgb(175, 233, 230),
+    rgb(24, 175, 225)
+  );
+  border-radius: 15px 35px;
+}
+
+#logo {
+  width: 70px;
+  height: 65px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+#selfie {
+  max-width: 250px;
+  max-height: 250px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 100%;
+  position: relative;
+  top: 25px;
+  shape-outside: circle();
+}
+
+#selfImage {
+  width: fit-content;
+}
+
+#intro {
+  display: flex;
+  justify-content: center;
+}
+
+#greeting {
+  position: relative;
+  top: 65px;
+}
+
+#aboutMe {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+#aboutMeHeader {
+  width: fit-content;
+  margin: 10px;
+  position: relative;
+  left: 25%;
+}
+
+#myWorkText {
+  position: relative;
+  left: 26.5%;
+  top: 35px;
+  width: fit-content;
+  padding: 0;
+  margin: 0;
+}
+
+#applications {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: fit-content;
+  position: relative;
+  left: 40%;
+}
+
+#nodeImg {
+  margin: 5px;
+  border: 1px solid rgb(24, 175, 225);
+  height: 225px;
+  border-radius: 10%;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+#htmlImage {
+ 
+  border: 1px solid rgb(24, 175, 225);
+  border-radius: 10%;
+  padding: 0;
+  height: 225px;
+  width: 302px;
+  
+  
+}
+
+#cssImage {
+  margin: 5px;
+  border: 1px solid rgb(24, 175, 225);
+  width: 450px;
+  height: 225px;
+  border-radius: 10%;
+  padding: 0;
+  margin: 0;
+}
+
+#javaImage {
+  margin: 5px;
+  border: 1px solid rgb(24, 175, 225);
+  width: 300px;
+  height: 225px;
+  border-radius: 10%;
+  padding: 0;
+  margin: 0;
+  
+}
+
+#submit {
+  background-color: rgb(24, 175, 225);
+  border-radius: 5px;
+  border: 1px solid rgb(175, 233, 230);
+  width: 50px;
+  color: white;
+  font-family: "Sofia Sans Condensed", sans-serif;
+}
+
+#contact {
+  padding-top: 5%;
+}
+
+#contactText {
+  position: relative;
+  left: 26.5%;
+  top: 35px;
+  width: fit-content;
+  padding: 0;
+  margin: 0;
+}
+
+#contactParagraph {
+  position: relative;
+  right: 5%;
+}
+
+@media (max-width: 1130px){
+  body{
+    background-color: blue;
+  }
+}
+  

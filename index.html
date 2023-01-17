@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="container">
+      <div>
+        <img id="logo" src="../images/placeholder.png" alt="logo" />
+      </div>
+      <div>
+        <nav>
+          <a href="#aboutMe">About Me</a>
+          <a href="#workContainer">My Work</a>
+          <a href="#contact">My Contact Information</a>
+        </nav>
+      </div>
+    </section>
+    <section id="intro">
+      <div id="selfImage">
+        <img
+          id="selfie"
+          src="thumbnail.jpg"
+          alt="selfie"
+        />
+      </div>
+      <div id="greeting">
+        <h1>
+          Hello! My name is <span><em>Adonte Eanes</em></span
+          >.<br />
+          I design and build web pages.
+        </h1>
+      </div>
+    </section>
+    <section>
+      <div id="aboutMe">
+        <h2 id="aboutMeHeader">About Me:</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sit
+          eius culpa, exercitationem atque, architecto velit, itaque numquam
+          odio impedit deleniti id? Fuga laborum exercitationem cumque
+          consectetur voluptatem necessitatibus consequuntur, deserunt soluta
+          autem, culpa cum magnam natus nisi repellat deleniti et excepturi
+          fugiat in, dignissimos sapiente? Alias non blanditiis exercitationem.
+        </p>
+      </div>
+    </section>
+    <div id="workContainer">
+      <h2 id="myWorkText">My Work:</h2>
+    </div>
+    <div id="applications">
+      <a href="" target="_blank">
+        <img
+          title="Node JS"
+          id="nodeImg"
+          src="nodejs-ar21.png"
+          alt=""
+        />
+      </a>
+      <a href="" target="_blank">
+        <img
+          title="HTML"
+          id="htmlImage"
+          src="HTML.png"
+          alt=""
+        />
+      </a>
+      <a href="" target="_blank">
+        <img
+          title="CSS"
+          id="cssImage"
+          src="CSS.png"
+          alt=""
+        />
+      </a>
+      <a href="" target="_blank">
+        <img
+          title="JavaScript"
+          id="javaImage"
+          src="JavaScript.png"
+          alt=""
+        />
+      </a>
+    </div>
+    <section id="contact">
+      <div>
+        <h2 id="contactText">How To Contact Me:</h2>
+      </div>
+      <div id="contactParagraph">
+        <p>
+          Please leave your contact information and <br />
+          a brief discription of your project.
+        </p>
+      </div>
+      <div>
+        <form action="">
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" />
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" />
+          <label for="email">Email</label>
+          <input type="text" id="email" />
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone" />
+          <label for="message">Message</label>
+          <textarea type="text" id="message"></textarea>
+          <input type="submit" value="submit" id="submit" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
